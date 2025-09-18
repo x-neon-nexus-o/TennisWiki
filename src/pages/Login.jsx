@@ -9,13 +9,13 @@ function Login() {
         <div className="card" style={{borderRadius: '2rem',backgroundColor: '#ebfde3ff'}}>
           <div className="row g-0">
             <div className="col-md-6 col-lg-5 d-none d-md-block p-3  ">
-              <img src="src/assets/LoginPage.png" alt="login form" className="img-fluid" style={{borderRadius: '1rem 1rem 1rem 1rem',height: '600px',objectFit: 'cover'}} />
+              <img src="imgs/LoginPage.png" alt="login form" className="img-fluid" style={{borderRadius: '1rem 1rem 1rem 1rem',height: '600px',objectFit: 'cover'}} />
             </div>
             <div className="col-md-6 col-lg-7 d-flex align-items-center">
               <div className="card-body p-4 p-lg-5 text-black">
                 <form>
                   <div className="d-flex align-items-center mb-3 pb-1 align-items-center justify-content-center">
-                    <img src="src/assets/image.svg" className="me-3" style={{width: '200px',height: '80px'}} />
+                    <img src="imgs/image.svg" className="me-3" style={{width: '200px',height: '80px'}} />
                   </div>
                   <h5 className="fw-normal mb-3 pb-3 ms-1 text-center" style={{letterSpacing: 1}}>Sign into your account</h5>
                   <div data-mdb-input-init className="form-outline mb-4">

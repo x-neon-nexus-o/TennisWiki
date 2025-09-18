@@ -41,7 +41,7 @@ function App() {
           <div className="row mb-3 text-center g-4">
             <div className="col-sm-6 col-md-4 col-lg-3">
               <Products 
-              img="src/assets/NovakHead.png"
+              img="imgs/NovakHead.png"
               title="Novak Djokovic"
               description="Tennis Legend"
               buttonText="Discover More"
@@ -50,7 +50,7 @@ function App() {
             </div>
             <div className="col-sm-6 col-md-4 col-lg-3">
               <Products 
-              img="src/assets/NadalHead.png"
+              img="imgs/NadalHead.png"
               title="Rafael Nadal"
               description="Clay King"
               buttonText="Discover More"
@@ -59,7 +59,7 @@ function App() {
             </div>
             <div className="col-sm-6 col-md-4 col-lg-3">
               <Products 
-              img="src/assets/AlcarazHead.png"
+              img="imgs/AlcarazHead.png"
               title="Carlos Alcaraz"
               description="Young Tennis Prodigy"
               buttonText="Discover More"
@@ -68,7 +68,7 @@ function App() {
             </div>
             <div className="col-sm-6 col-md-4 col-lg-3">
               <Products 
-              img="src/assets/SinnerHead.png"
+              img="imgs/SinnerHead.png"
               title="Jannik Sinner"
               description="Future Star"
               buttonText="Discover More"

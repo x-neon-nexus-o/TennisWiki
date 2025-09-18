@@ -17,7 +17,7 @@ function Header() {
       <span className="navbar-toggler-icon" />
     </button>
      <Link className="navbar-brand" to="/">
-    <img src='src/assets/Logo.svg' alt='logo' style={{width: '100px', height: '40px'}} className='me-2'/>
+    <img src='imgs/Logo.svg' alt='logo' style={{width: '100px', height: '40px'}} className='me-2'/>
   </Link>
 
     <div className="collapse navbar-collapse" id="navbarTogglerDemo03">

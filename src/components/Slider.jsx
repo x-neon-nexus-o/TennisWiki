@@ -10,21 +10,21 @@ function Slider() {
   </div>
   <div className="carousel-inner rounded shadow">
     <div className="carousel-item active">
-      <img src="src/assets/Emma Raducanu.jpg" className="d-block w-100" alt="..." />
+      <img src="imgs/EmmaRaducanu.jpg" className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
         <h5>Emma Raducanu</h5>
         <p>British tennis star who made history by winning the 2021 US Open as a qualifier</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="src/assets/Novak.jpg" className="d-block w-100" alt="..." />
+      <img src="imgs/Novak.jpg" className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
         <h5>Novak Djokovic</h5>
         <p>Serbian legend and multiple Grand Slam champion, renowned for his dominance and resilience</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="src/assets/Aryna Sabalenka.jpg" className="d-block w-100" alt="..." />
+      <img src="imgs/ArynaSabalenka.jpg" className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
         <h5>Aryna Sabalenka</h5>
         <p>Powerful Belarusian player and Grand Slam winner, known for her aggressive baseline game.</p>

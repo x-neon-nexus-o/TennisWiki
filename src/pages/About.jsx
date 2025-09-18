@@ -6,7 +6,7 @@ function About() {
       <div className="row align-items-center">
         <div className="col-md-6 mb-4 mb-md-0">
           <img
-            src="src/assets/AboutUs.png"
+            src="imgs/AboutUs.png"
             alt="About Us"
             className="img-fluid rounded shadow"
           />
@@ -32,7 +32,7 @@ function About() {
         <div className="col-md-4 col-sm-12 text-center">
           <div className="card">
             <img
-              src="src/assets/Vision.png"
+              src="imgs/Vision.png"
               className="card-img-top"
               alt="..."
             />
@@ -49,7 +49,7 @@ function About() {
         <div className="col-md-4 col-sm-12 text-center">
           <div className="card">
             <img
-              src="src/assets/Mission.png"
+              src="imgs/Mission.png"
               className="card-img-top"
               alt="..."
             />
@@ -66,7 +66,7 @@ function About() {
         <div className="col-md-4 col-sm-12">
           <div className="card">
             <img
-              src="src/assets/WhatWeOffer.png"
+              src="imgs/WhatWeOffer.png"
               className="card-img-top"
               alt="..."
             />

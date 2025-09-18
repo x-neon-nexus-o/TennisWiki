@@ -66,7 +66,7 @@ function Contact() {
         <div className="row align-items-center">
           <div className="col-md-6">
             <img
-              src="src/assets/ContactUs.png"
+              src="imgs/ContactUs.png"
               className="img-fluid img-thumbnail shadow"
             ></img>
           </div>
