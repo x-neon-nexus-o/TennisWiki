@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://github.com/x-neon-nexus-o/TennisWiki",
+  "homepage": "https://x-neon-nexus-o.github.io/TennisWiki",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
