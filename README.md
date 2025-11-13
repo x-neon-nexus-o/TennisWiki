@@ -1,12 +1,121 @@
-# React + Vite
+<div align="center">
+# 🎾 TennisWiki
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=900&color=00C8FF&center=true&vCenter=true&width=435&lines=A+Modern+Tennis+Explorer+App;Built+with+React+%2B+Vite;Responsive+UI+%7C+SPA+%7C+Fast+%26+Lightweight)](https://git.io/typing-svg)
+</div>
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
+TennisWiki is a modern, responsive SPA crafted for tennis lovers. Built with React + Vite, it provides interactive UI, dynamic routing, player profiles, contact forms, and seamless GitHub Pages deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Key Features
+- ✨ **Responsive UI** — Built with Bootstrap 5 (mobile-first)
+- ✨ **Dynamic Routing** — Powered by React Router v7
+- ✨ **Interactive Interface** — Legends slider, partner logos, product cards
+- ✨ **Player Profiles** — Quick Wikipedia access to top tennis players
+- ✨ **Validated Forms** — Contact page with real-time validation
+- ✨ **Deployment Ready** — Fully configured GitHub Pages setup
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+| Category | Technology |
+|----------|------------|
+| **Framework** | React 19 |
+| **Build Tool** | Vite 7 |
+| **Styling** | Bootstrap 5 + Custom CSS |
+| **Routing** | React Router DOM v7 |
+| **Icons** | FontAwesome CDN |
+| **Hosting** | GitHub Pages |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧊 Project Structure
+```
+TennisWiki/
+├── public/
+│   └── imgs/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── ErrorPage.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── Partners.jsx
+│   │   ├── Products.jsx
+│   │   └── Slider.jsx
+│   ├── pages/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   └── Service.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## ⚡ Getting Started
+
+### ✔️ Prerequisites
+Ensure Node.js is installed.
+
+### ✔️ Installation
+```bash
+git clone https://github.com/your-username/TennisWiki.git
+cd TennisWiki
+npm install
+```
+
+### ✔️ Start Dev Server
+```bash
+npm run dev
+```
+
+Runs on:
+http://localhost:8767
+
+## 📜 Scripts
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Starts development server |
+| `npm run build` | Builds production bundle |
+| `npm run lint` | Runs ESLint |
+| `npm run preview` | Previews build locally |
+| `npm run deploy` | Deploys to GitHub Pages |
+
+## 🌐 Deployment (GitHub Pages)
+```bash
+npm run deploy
+```
+
+The `vite.config.js` sets:
+```js
+base: "/TennisWiki/"
+```
+
+## 🤝 Contributing
+PRs are welcome!
+```bash
+git checkout -b feature/AmazingFeature
+git commit -m "Add AmazingFeature"
+git push origin feature/AmazingFeature
+```
+
+Open a Pull Request 🚀
+
+## 📝 License
+This project is open source and available for learning & development.
+
+## 🎉 Ending Note
+<div align="center">
+Made with ❤️, React ⚛️ and Tennis Spirit 🎾
+
+![Tennis Serve](https://media.tenor.com/hhVnX0PZb1QAAAAC/tennis-serve.gif)
+</div>
+
+If you want, I can also:
+- ✅ Add screenshots
+- ✅ Add animated banners
+- ✅ Add live demo button
+- ✅ Add installation GIFs
+
+Just say "add screenshots section" or "add live demo button"!
