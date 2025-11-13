@@ -1,224 +1,129 @@
-<div align="center">
-<<<<<<< HEAD
-# 🎾 TennisWiki
+# 🎾 TennisWiki - Modern Tennis Information Hub
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=900&color=00C8FF&center=true&vCenter=true&width=435&lines=A+Modern+Tennis+Explorer+App;Built+with+React+%2B+Vite;Responsive+UI+%7C+SPA+%7C+Fast+%26+Lightweight)](https://git.io/typing-svg)
+<div align="center">
+  
+[![React](https://img.shields.io/badge/React-19.1.1-61DAFB?logo=react&logoColor=white&style=for-the-badge)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-4.4.0-646CFF?logo=vite&logoColor=white&style=for-the-badge)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.13-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge)](https://tailwindcss.com/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=github&logoColor=white&style=for-the-badge)](https://x-neon-nexus-o.github.io/TennisWiki/)
+
 </div>
 
-## 🚀 Project Overview
-TennisWiki is a modern, responsive SPA crafted for tennis lovers. Built with React + Vite, it provides interactive UI, dynamic routing, player profiles, contact forms, and seamless GitHub Pages deployment.
+## 🚀 Features
 
-## 🎯 Key Features
-- ✨ **Responsive UI** — Built with Bootstrap 5 (mobile-first)
-- ✨ **Dynamic Routing** — Powered by React Router v7
-- ✨ **Interactive Interface** — Legends slider, partner logos, product cards
-- ✨ **Player Profiles** — Quick Wikipedia access to top tennis players
-- ✨ **Validated Forms** — Contact page with real-time validation
-- ✨ **Deployment Ready** — Fully configured GitHub Pages setup
+- 🎨 Modern, responsive UI with smooth animations
+- 📱 Mobile-first design
+- ⚡ Blazing fast performance with Vite
+- 🎯 Interactive components with Framer Motion
+- 🌐 Client-side routing with React Router
+
+## 📦 Project Structure
+
+```mermaid
+graph TD
+    A[public] -->|Static Files| B(Images)
+    A --> C(Favicon)
+    
+    D[src] --> E[components]
+    D --> F[pages]
+    D --> G[assets]
+    
+    E --> H[Header.jsx]
+    E --> I[Footer.jsx]
+    E --> J[ErrorPage.jsx]
+    
+    F --> K[About.jsx]
+    F --> L[Contact.jsx]
+    F --> M[Login.jsx]
+    
+    G --> N[react.svg]
+```
 
 ## 🛠️ Tech Stack
-| Category | Technology |
-|----------|------------|
-| **Framework** | React 19 |
-| **Build Tool** | Vite 7 |
-| **Styling** | Bootstrap 5 + Custom CSS |
-| **Routing** | React Router DOM v7 |
-| **Icons** | FontAwesome CDN |
-| **Hosting** | GitHub Pages |
 
-## 🧊 Project Structure
-```
-=======
-🎾 TennisWiki
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=900&color=00C8FF&center=true&vCenter=true&width=435&lines=A+Modern+Tennis+Explorer+App;Built+with+React+%2B+Vite;Responsive+UI+%7C+SPA+%7C+Fast+%26+Lightweight" alt="Typing SVG" />
+- **Frontend Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Animation**: Framer Motion
+- **Routing**: React Router v7
+- **Deployment**: GitHub Pages
 
+## 🚀 Getting Started
 
+### Prerequisites
 
+- Node.js 16+ and npm/yarn
+- Git
 
+### Installation
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/x-neon-nexus-o/TennisWiki.git
+   cd frontend
+   ```
 
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
+## 📦 Build for Production
 
-</div>
-🚀 Project Overview
-
-TennisWiki is a modern, responsive SPA crafted for tennis lovers. Built with React + Vite, it provides interactive UI, dynamic routing, player profiles, contact forms, and seamless GitHub Pages deployment.
-
-🎯 Key Features
-
-✨ Responsive UI — Built with Bootstrap 5 (mobile-first)
-✨ Dynamic Routing — Powered by React Router v7
-✨ Interactive Interface — Legends slider, partner logos, product cards
-✨ Player Profiles — Quick Wikipedia access to top tennis players
-✨ Validated Forms — Contact page with real-time validation
-✨ Deployment Ready — Fully configured GitHub Pages setup
-
-🛠️ Tech Stack
-Category	Technology
-Framework	React 19
-Build Tool	Vite 7
-Styling	Bootstrap 5 + Custom CSS
-Routing	React Router DOM v7
-Icons	FontAwesome CDN
-Hosting	GitHub Pages
-🧊 Project Structure
->>>>>>> 42ff8310976b30ae9e17873fbe18e5fc7d70801b
-TennisWiki/
-├── public/
-│   └── imgs/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── ErrorPage.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Header.jsx
-│   │   ├── Partners.jsx
-│   │   ├── Products.jsx
-│   │   └── Slider.jsx
-│   ├── pages/
-│   │   ├── About.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Login.jsx
-│   │   ├── Register.jsx
-│   │   └── Service.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── index.html
-├── package.json
-└── vite.config.js
-<<<<<<< HEAD
-```
-
-## ⚡ Getting Started
-
-### ✔️ Prerequisites
-Ensure Node.js is installed.
-
-### ✔️ Installation
 ```bash
-git clone https://github.com/your-username/TennisWiki.git
-cd TennisWiki
-npm install
+# Create production build
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-### ✔️ Start Dev Server
-```bash
-npm run dev
-```
+## 🚀 Deployment
 
-Runs on:
-http://localhost:8767
+The project is automatically deployed to GitHub Pages on push to the `main` branch. To deploy manually:
 
-## 📜 Scripts
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Starts development server |
-| `npm run build` | Builds production bundle |
-| `npm run lint` | Runs ESLint |
-| `npm run preview` | Previews build locally |
-| `npm run deploy` | Deploys to GitHub Pages |
-
-## 🌐 Deployment (GitHub Pages)
 ```bash
 npm run deploy
-```
-
-The `vite.config.js` sets:
-```js
-base: "/TennisWiki/"
 ```
 
 ## 🤝 Contributing
-PRs are welcome!
-```bash
-git checkout -b feature/AmazingFeature
-git commit -m "Add AmazingFeature"
-git push origin feature/AmazingFeature
-```
 
-Open a Pull Request 🚀
+Contributions are welcome! Please follow these steps:
 
-## 📝 License
-This project is open source and available for learning & development.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 🎉 Ending Note
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ✨ Contributors
+
+<a href="https://github.com/x-neon-nexus-o/TennisWiki/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=x-neon-nexus-o/TennisWiki" />
+</a>
+
+## 💡 Features in Progress
+
+- [ ] Player profiles
+- [ ] Tournament brackets
+- [ ] Live scores integration
+- [ ] User authentication
+
 <div align="center">
-Made with ❤️, React ⚛️ and Tennis Spirit 🎾
+  
+![GitHub last commit](https://img.shields.io/github/last-commit/x-neon-nexus-o/TennisWiki?style=flat-square&color=blueviolet)
+![GitHub repo size](https://img.shields.io/github/repo-size/x-neon-nexus-o/TennisWiki?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/x-neon-nexus-o/TennisWiki?style=flat-square)
 
-![Tennis Serve](https://media.tenor.com/hhVnX0PZb1QAAAAC/tennis-serve.gif)
 </div>
-
-If you want, I can also:
-- ✅ Add screenshots
-- ✅ Add animated banners
-- ✅ Add live demo button
-- ✅ Add installation GIFs
-
-Just say "add screenshots section" or "add live demo button"!
-=======
-
-⚡ Getting Started
-✔️ Prerequisites
-
-Ensure Node.js is installed.
-
-✔️ Installation
-git clone https://github.com/your-username/TennisWiki.git
-cd TennisWiki
-npm install
-
-✔️ Start Dev Server
-npm run dev
-
-
-Runs on:
-
-http://localhost:8767
-
-📜 Scripts
-Command	Description
-npm run dev	Starts development server
-npm run build	Builds production bundle
-npm run lint	Runs ESLint
-npm run preview	Previews build locally
-npm run deploy	Deploys to GitHub Pages
-🌐 Deployment (GitHub Pages)
-npm run deploy
-
-
-The vite.config.js sets:
-
-base: "/TennisWiki/"
-
-🤝 Contributing
-
-PRs are welcome!
-
-git checkout -b feature/AmazingFeature
-git commit -m "Add AmazingFeature"
-git push origin feature/AmazingFeature
-
-
-Open a Pull Request 🚀
-
-📝 License
-
-This project is open source and available for learning & development.
-
-🎉 Ending Note
-<div align="center">
-Made with ❤️, React ⚛️ and Tennis Spirit 🎾
-<img src="https://media.tenor.com/hhVnX0PZb1QAAAAC/tennis-serve.gif" width="180"/> </div>
-
-If you want, I can also:
-
-✅ Add screenshots
-✅ Add animated banners
-✅ Add live demo button
-✅ Add installation GIFs
-
-Just say “add screenshots section” or “add live demo button”!
->>>>>>> 42ff8310976b30ae9e17873fbe18e5fc7d70801b
