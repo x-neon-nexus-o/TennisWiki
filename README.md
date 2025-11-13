@@ -1,98 +1,122 @@
 <div align="center">
+🎾 TennisWiki
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=900&color=00C8FF&center=true&vCenter=true&width=435&lines=A+Modern+Tennis+Explorer+App;Built+with+React+%2B+Vite;Responsive+UI+%7C+SPA+%7C+Fast+%26+Lightweight" alt="Typing SVG" />
 
-# 🎾 TennisWiki <span style="display:inline-block; animation: bounce 2s infinite;">🎾</span>
 
-**A modern, responsive tennis hub for fans, learners, and enthusiasts.**  
-Built with **React**, **Vite**, and **Bootstrap 5**.
 
-[![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)](https://vitejs.dev)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap)](https://getbootstrap.com)
 
-</div>
 
-<style>
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes slideUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-  }
-  .animate-fade { animation: fadeIn 1s ease-out; }
-  .animate-slide { animation: slideUp 0.8s ease-out; }
-  .section { margin: 2.5rem 0; padding: 1.5rem; border-left: 4px solid #28a745; background: #f8f9fa; border-radius: 8px; }
-  .badge { font-size: 0.9em; padding: 0.4em 0.8em; border-radius: 12px; }
-  .tennis-ball { font-size: 1.5em; display: inline-block; animation: bounce 2s infinite; }
-</style>
 
----
 
-## <div class="animate-fade">🚀 Project Overview</div>
 
-<div class="section animate-slide">
 
-**TennisWiki** is a **Single Page Application (SPA)** that brings the world of tennis to your fingertips. Explore player profiles, tournament info, and connect with the community.
-
-### ✨ Key Features
-
-- **Responsive Design** – Mobile-first with **Bootstrap 5**  
-- **Dynamic Routing** – **React Router v7** (Home, About, Contact, etc.)  
-- **Interactive UI** – Homepage slider with tennis legends  
-- **Player Profiles** – Cards linking to Wikipedia (Djokovic, Nadal, Alcaraz, Sinner)  
-- **Contact Form** – With validation and state management  
-- **Deployment Ready** – GitHub Pages via `gh-pages`
 
 </div>
+🚀 Project Overview
 
----
+TennisWiki is a modern, responsive SPA crafted for tennis lovers. Built with React + Vite, it provides interactive UI, dynamic routing, player profiles, contact forms, and seamless GitHub Pages deployment.
 
-## <div class="animate-fade">🛠️ Tech Stack</div>
+🎯 Key Features
 
-<div class="section animate-slide">
+✨ Responsive UI — Built with Bootstrap 5 (mobile-first)
+✨ Dynamic Routing — Powered by React Router v7
+✨ Interactive Interface — Legends slider, partner logos, product cards
+✨ Player Profiles — Quick Wikipedia access to top tennis players
+✨ Validated Forms — Contact page with real-time validation
+✨ Deployment Ready — Fully configured GitHub Pages setup
 
-| Technology | Version | Link |
-|-----------|--------|------|
-| **React** | v19 | [react.dev](https://react.dev) |
-| **Vite** | v7 | [vitejs.dev](https://vitejs.dev) |
-| **Bootstrap 5** | CDN | [getbootstrap.com](https://getbootstrap.com) |
-| **React Router** | v7 | [reactrouter.com](https://reactrouter.com) |
-| **FontAwesome** | CDN | Icons |
-| **Deployment** | gh-pages | GitHub Pages |
-
-</div>
-
----
-
-## <div class="animate-fade">📂 Project Structure</div>
-
-```text
+🛠️ Tech Stack
+Category	Technology
+Framework	React 19
+Build Tool	Vite 7
+Styling	Bootstrap 5 + Custom CSS
+Routing	React Router DOM v7
+Icons	FontAwesome CDN
+Hosting	GitHub Pages
+🧊 Project Structure
 TennisWiki/
 ├── public/
-│   └── imgs/           # Player photos, logos, UI assets
+│   └── imgs/
 ├── src/
-│   ├── assets/         # Source images
-│   ├── components/     # Reusable UI
+│   ├── assets/
+│   ├── components/
 │   │   ├── ErrorPage.jsx
 │   │   ├── Footer.jsx
 │   │   ├── Header.jsx
 │   │   ├── Partners.jsx
 │   │   ├── Products.jsx
 │   │   └── Slider.jsx
-│   ├── pages/          # Page components
+│   ├── pages/
 │   │   ├── About.jsx
 │   │   ├── Contact.jsx
 │   │   ├── Login.jsx
 │   │   ├── Register.jsx
 │   │   └── Service.jsx
-│   ├── App.jsx         # Routing & layout
-│   ├── main.jsx        # Entry point
-│   └── index.css       # Global styles
-├── index.html          # Bootstrap CDN
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
 ├── package.json
-└── vite.config.js      # base: '/TennisWiki/'
+└── vite.config.js
+
+⚡ Getting Started
+✔️ Prerequisites
+
+Ensure Node.js is installed.
+
+✔️ Installation
+git clone https://github.com/your-username/TennisWiki.git
+cd TennisWiki
+npm install
+
+✔️ Start Dev Server
+npm run dev
+
+
+Runs on:
+
+http://localhost:8767
+
+📜 Scripts
+Command	Description
+npm run dev	Starts development server
+npm run build	Builds production bundle
+npm run lint	Runs ESLint
+npm run preview	Previews build locally
+npm run deploy	Deploys to GitHub Pages
+🌐 Deployment (GitHub Pages)
+npm run deploy
+
+
+The vite.config.js sets:
+
+base: "/TennisWiki/"
+
+🤝 Contributing
+
+PRs are welcome!
+
+git checkout -b feature/AmazingFeature
+git commit -m "Add AmazingFeature"
+git push origin feature/AmazingFeature
+
+
+Open a Pull Request 🚀
+
+📝 License
+
+This project is open source and available for learning & development.
+
+🎉 Ending Note
+<div align="center">
+Made with ❤️, React ⚛️ and Tennis Spirit 🎾
+<img src="https://media.tenor.com/hhVnX0PZb1QAAAAC/tennis-serve.gif" width="180"/> </div>
+
+If you want, I can also:
+
+✅ Add screenshots
+✅ Add animated banners
+✅ Add live demo button
+✅ Add installation GIFs
+
+Just say “add screenshots section” or “add live demo button”!
