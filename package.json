@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "private": true,
-  "homepage": "https://x-neon-nexus.github.io/TennisWiki",
+  "homepage": "https://x-neon-nexus-o.github.io/TennisWiki",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
